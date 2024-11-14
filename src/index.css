@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply m-0 p-0 font-montserrat;
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 10px;
+}
+*::-webkit-scrollbar-track {
+  @apply dark:dark:bg-[#000000CC] rounded-lg;
+}
+*::-webkit-scrollbar-thumb {
+
+  border: 3px solid rgb(245, 255, 245);
+  border-radius: 27px;
+  @apply dark:border-[#000000CC] bg-primary;
+}
+*::-webkit-scrollbar-thumb:hover {
+  @apply bg-primary/80;
+}
+body {
+  @apply min-h-screen w-full bg-[#0f111a] text-white;
+}
