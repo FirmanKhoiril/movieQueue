@@ -4,7 +4,7 @@ const options = {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: `Bearer ${import.meta.env.VITE_MOVIE_API_READ_ACCESS_TOKEN}`
+      Authorization: `Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjYzQxMzE5YjljZDRiZTg5ZDg1YTYyZjIzMzUyYTRlNSIsIm5iZiI6MTczMDI3MDc1My45NzQzMjc2LCJzdWIiOiI2NzIwZWU4ZDM0YzBmYWJkNjgxZDYxZDEiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.6iVpmBjS3I9Tc0jS19-0Y-3b2KYdj8b-g48JW47JK40`
     }
   };
 
