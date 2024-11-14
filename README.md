@@ -51,7 +51,7 @@ Explore the GitHub repository: [GitHub - MovieQueue](https://github.com/FirmanKh
 
 4. **Run the development server**:
     ```bash
-    npm start
+    npm run dev
     ```
    Visit the app at `http://localhost:3000`.
 
